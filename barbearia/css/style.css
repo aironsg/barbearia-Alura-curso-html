@@ -1,86 +1,81 @@
-
 /*resertando margem e espaçamento padrões das tags*/
-body{
+
+body {
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
-h1{
+h1 {
     margin: 0px;
     padding: 0px;
 }
 
-h2{
+h2 {
     margin: 0px;
     padding: 0px;
 }
 
-h3{
+h3 {
     margin: 0px;
     padding: 0px;
 }
 
-p{
+p {
     margin: 0px;
     padding: 0px;
 }
+
 
 /*configurações manuais das tags*/
 
-#titulo{
+#titulo {
     padding-left: 20px;
     padding-top: 10px;
-    color:rgb(85, 66, 46);
+    color: rgb(85, 66, 46);
     font-size: 30px;
     font-weight: bold;
 }
 
-.imagem-cabecalho{
-    width:100%;
-   
-    
+.imagem-cabecalho {
+    width: 100%;
 }
 
-.principal{
+.principal {
     background-color: #c5c3c3;
-    padding:10px;
+    padding: 10px;
 }
 
-.titulo-corpo{
+.titulo-corpo {
     text-align: center;
     margin-bottom: 10px;
-    color:rgb(85, 66, 46);
+    color: rgb(85, 66, 46);
 }
 
-.missao{
+.missao {
     text-align: center;
-    margin:5px;
-    font-size:20px;
-    color:rgb(170, 11, 11);
-   
+    margin: 5px;
+    font-size: 20px;
+    color: rgb(170, 11, 11);
 }
 
-.beneficios{
+.beneficios {
     background-image: url(../images/beneficios.jpg);
-    width:100%;
+    width: 100%;
     height: 500px;
 }
 
-.titulo-beneficios{
+.titulo-beneficios {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: black;
-    color:antiquewhite;
+    color: antiquewhite;
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
 }
 
-
-
-.itens-beneficios{
+.itens-beneficios {
     color: aliceblue;
     font-size: 20px;
     vertical-align: bottom;
@@ -88,83 +83,75 @@ p{
     margin-left: 15px;
 }
 
-.roda-pe{
+.roda-pe {
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    margin-top:30px;
-    
+    margin-top: 30px;
 }
+
 
 /*pagina de produtos*/
 
-
-.menu{
+.menu {
     background-color: #BBBBBB;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.caixa{
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
-    
 }
 
-.logo:hover{
+.logo:hover {
     transform: scale(1.2);
 }
 
-nav{
+nav {
     position: absolute;
     top: 50%;
-    right:0px;
+    right: 0px;
 }
 
-
-nav li{
+nav li {
     display: inline;
     margin-left: 15px;
-    
-    
 }
 
-nav a{
+nav a {
     text-transform: uppercase;
     font-size: 22px;
     font-weight: bold;
     color: black;
     text-decoration: none;
-    
 }
 
-nav a:hover{
-    color:rgb(119, 97, 67);
-    
+nav a:hover {
+    color: rgb(119, 97, 67);
 }
 
-.links-pagina-principal{
-    color:rgb(241, 241, 245); 
+.links-pagina-principal {
+    color: rgb(241, 241, 245);
     margin-right: 30px;
 }
 
+
 /*apagar a partir daqui para refazer*/
-.produtos{
+
+.produtos {
     width: 940px;
     margin: 0 auto;
     padding: 50px 0;
-
 }
 
-
-
-.produtos a{
+.produtos a {
     text-decoration: none;
     color: black;
 }
 
-.produtos li{
+.produtos li {
     display: inline-block;
     text-align: center;
     width: 30%;
@@ -178,125 +165,135 @@ nav a:hover{
     border-style: solid;
 }
 
-
-.produtos h2{
+.produtos h2 {
     font-size: 30px;
     font-weight: bold;
 }
 
-.produto-descricao{
-    font-size:18px;
+.produto-descricao {
+    font-size: 18px;
     font-weight: bold;
     margin-top: 5px;
 }
 
-.produto-preco{
-    font-size:22px;
+.produto-preco {
+    font-size: 22px;
     font-weight: bold;
-    margin-top:5px;
+    margin-top: 5px;
 }
 
-.produtos li:active{
+.produtos li:active {
     border-color: blue;
-    
 }
 
-.produtos li:hover{
-    color:rgb(140, 91, 56);
-    border-color:rgb(140, 91, 56);
+.produtos li:hover {
+    color: rgb(140, 91, 56);
+    border-color: rgb(140, 91, 56);
 }
 
-.produtos li:hover h2{
-    font-size:34px;
-    color:rgb(175, 108, 6);
+.produtos li:hover h2 {
+    font-size: 34px;
+    color: rgb(175, 108, 6);
 }
 
-.produtos a:hover{
-    color:rgb(140, 91, 56);
+.produtos a:hover {
+    color: rgb(140, 91, 56);
 }
 
-
-
-.roda-pe-produtos{
+.roda-pe-produtos {
     text-align: center;
     background-image: url("../images/bg.jpg");
-    color:antiquewhite;
+    color: antiquewhite;
 }
 
-
-main{
-    width:940px;
-    margin:0 auto;
-    
+main {
+    width: 940px;
+    margin: 0 auto;
 }
 
-form{
-    margin:40px 0;
+form {
+    margin: 40px 0;
 }
 
-form label , form legend{
-    display:block;
-    margin-bottom:3px;
-    font-size:18px;
-    font-weight:bold;
+form label,
+form legend {
+    display: block;
+    margin-bottom: 3px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.input-padrao{
-    display:block;
-    width:25%;
+.input-padrao {
+    display: block;
+    width: 25%;
     padding: 2px;
     margin-bottom: 10px;
 }
 
-
-
-.area-contato{
+.area-contato {
     display: inline-block;
-    
 }
 
-.radio-contato{   
+.radio-contato {
     margin-right: 5px;
 }
 
-.checkbox{
-    margin:20px 0;
-}
-
-.grupo-selecao{
+.checkbox {
     margin: 20px 0;
-    
 }
 
-.select{
+.grupo-selecao {
+    margin: 20px 0;
+}
+
+.select {
     font-size: 16px;
     padding: 3px;
 }
 
-fieldset{
+fieldset {
     border: none;
     padding-left: 0px;
-    
 }
 
 .enviar {
     width: 25%;
-    padding:10px 0;
+    padding: 10px 0;
     font-size: 15px;
     background-color: blue;
-    color:rgb(244, 244, 247);
+    color: rgb(244, 244, 247);
     font-weight: bolder;
-    border:none;
+    border: none;
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
 }
 
-.enviar:hover{
+.enviar:hover {
     background-color: rgb(5, 5, 189);
     transform: scale(1.1);
 }
 
+table {
+    margin: 20px 0px;
+    background-color: #BBBBBB;
+    border: 1px solid black;
+}
 
+thead {
+    font-size: 30px;
+    color: white;
+    background-color: black;
+}
 
+th,
+td {
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
 
+tfoot {
+    font-weight: bold;
+    text-align: center;
+}
